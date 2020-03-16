@@ -4,6 +4,7 @@ body{
     display:flex;
     justify-content: center;
     background-image: url("../images/background.jpg");
+    margin: 0px;
 }
 
 #app {
@@ -127,6 +128,7 @@ h2 {
     td {
         width: 100px;
         height: 150px;
+        font-size: 60px;
     }
   }
 
