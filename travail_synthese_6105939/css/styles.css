@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    background-image: url("../images/background.jpg");
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.case {
+    width: 200px;
+    height: 200px;
+    border: solid white 1px;
+}
+
+.case.actif {
+    color: red;
+}
+.case:hover {
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.onClick {
+    background-image: url("../images/X.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.victory {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #222;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100px;
+    border-color: #222;
+    width: 400px;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.difficulty {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(95, 93, 93, 0.7);
+    width: 500px;
+    height: 200px;
+    margin-top:210px;
+}
+
+.difficultyButton {
+    display: none;
+}
+
+.chooseDifficulty {
+    width: 200px;
+    height: 50px;
+}
+
+.board {
+    display:flex;
+    justify-content: center;
+}
+
+.tictactoe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin: 0px;
+}
+
+h2 {
+    color: white;
+}
+
+
